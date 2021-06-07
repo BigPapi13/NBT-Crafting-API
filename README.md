@@ -1,4 +1,4 @@
-# NBT-Crafting-API
+# NBT-Crafting-API (1.17)
 This datapack provides creators with the ability to access the nbt data of items used in a custom crafting recipe via inventory tracking. It should be noted that this method is _not_ a replacement for the knowledge book tactic. It does not replace the output, but allows you to gather data on the inputs and apply modifications based off of it once the item enters the player's inventory. Some possible uses of this could be:
 * Getting potion data to make tipped swords in the crafting table
 * Transferring the enchantment of a bow into the dispenser it is used to craft
