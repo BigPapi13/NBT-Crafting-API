@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:crafting_table"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nbtc:open_crafting/open_crafting"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "nbtc:items"
+    },
+    "ops": [
+      {
+        "source": "in_crafting",
+        "target": "Items[0].tag.nbtc.in_crafting",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "nbtc:items"
+    },
+    "ops": [
+      {
+        "source": "id",
+        "target": "Items[0].tag.nbtc.id",
+        "op": "replace"
+      }
+    ]
+  }
+]

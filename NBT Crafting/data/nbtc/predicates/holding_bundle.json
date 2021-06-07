@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:armor_stand",
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "minecraft:bundle"
+        ]
+      }
+    }
+  }
+}

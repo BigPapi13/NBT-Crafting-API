@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "nbtc:items"
+    },
+    "ops": [
+      {
+        "source": "empty",
+        "target": "Items[0].tag.nbtc",
+        "op": "replace"
+      }
+    ]
+  }
+]
